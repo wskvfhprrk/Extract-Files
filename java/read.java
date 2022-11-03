@@ -1,3 +1,4 @@
+import java.beans.Transient;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,7 +8,7 @@ public class read {
     public static void main(String[] args) {
         try {
             //文件路径，例子中的1.txt，题目是以#### 四号标题开始的
-            String filePath = "C:\\Users\\Administrator\\IdeaProjects\\freemaker\\generator code\\readtext\\src\\main\\java\\1.txt";
+            String filePath = "C:\\Users\\Administrator\\Desktop\\1.txt";
 //            String filePath = "C:\\Users\\Administrator\\Desktop\\1.txt";
             File file = new File(filePath);
             List<Object> textList = new ArrayList<>();
